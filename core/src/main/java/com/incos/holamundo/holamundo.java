@@ -22,7 +22,8 @@ public class holamundo extends ApplicationAdapter {
 
     @Override
     public void render() {
-        Color color = Color.valueOf("#69D1DB");//HEX ScreenUtils.clear(color.r, color.b,color.a)
+        Color color = Color.valueOf("#72DC9F");//HEX
+        ScreenUtils.clear(color.r, color.g ,color.b,color.a);
         lapiz.begin();
         lapiz.draw(miImagen, 700, 550);
         miTexto.draw(lapiz, "Hola, este es mi primer juego!", 50, 200);
