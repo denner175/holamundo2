@@ -23,7 +23,7 @@ public class holamundo extends ApplicationAdapter {
     public void render() {
         ScreenUtils.clear(0, 0, 0, 1);
         lapiz.begin();
-        lapiz.draw(miImagen, 140, 210);
+        lapiz.draw(miImagen, 700, 550);
         miTexto.draw(lapiz, "Hola, este es mi primer juego!", 50, 200);
         lapiz.end();
     }
